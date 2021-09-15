@@ -1,0 +1,23 @@
+Dados de teste:
+
+Algoritmo | Num de Árvores | Espaçamento* | FPS | ms** 
+Colisão   | 1016           | 30           | 20  | 48
+Hash      | 1036           | 30           | 30  | 33
+
+Colisão   | 6344           | 30           | 3   | 300
+Hash      | 6332           | 30           | 6.5 | 165
+
+Colisão   | 25102          | 30           | 0.8 | 1200
+Hash      | 25150          | 30           | 1.5 | 670
+
+Colisão   | 69781          | 30           | 0.3 | 3311
+Hash      | 69623          | 30           | 0.5 | 1880
+
+Colisão   | 69781          | 30           | 0.3 | 3311
+Hash      | 69623          | 30           | 0.5 | 1880
+
+Colisão   | 156490         | 30           | 0.1 | 7982
+Hash      | 158892         | 30           | 0.2 | 4556
+
+*Espaçamento: distância entre os pontos que geram a mesh
+**ms: tempo médio de duração de frames em milisegundos
